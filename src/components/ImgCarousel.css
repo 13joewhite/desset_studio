@@ -1,0 +1,8 @@
+.gallery img {
+    height: 410px;
+}
+
+.slick-list {
+    height: 100%;
+    width: 100vw;
+} 

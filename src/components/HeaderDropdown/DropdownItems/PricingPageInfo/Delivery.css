@@ -1,0 +1,24 @@
+.pricingPageLayout2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topLayout2 {
+    margin-top: 40px;
+}
+
+.bottomLayout2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 40px;
+}
+
+.pricingInfo2 {
+    padding: 25px 0;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer p {
+    font-size: xx-small;
+}
+
+
+.footerBtn {
+    background-color: #c79288;
+    color: white;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    padding: 1.2em 2.004em;  
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none; 
+    cursor: pointer;
+    border: none;
+}

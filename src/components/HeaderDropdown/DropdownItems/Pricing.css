@@ -1,0 +1,19 @@
+.pricingLinks {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkTitle {
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.linkTitle:hover {
+    text-decoration: underline
+}
+
+.linkTitle:visited {
+    color: black;
+}
