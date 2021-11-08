@@ -7,7 +7,7 @@ import "./ImgCarousel.css"
 export default function ImgCarousel() {
     const settings = {
         variableWidth: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1500,
         centerMode: true,
         slidesToShow: 3,
@@ -18,11 +18,11 @@ export default function ImgCarousel() {
             <Slider {...settings}>
                 <>
                     <img src="https://images.squarespace-cdn.com/content/v1/6130541c25007576b43eb649/4721e6a0-9835-48e3-8273-aa04d85a3e94/IMG-6365.jpg?format=750w" alt="pic1" />
-                    {settings.centerMode === true ? <h3>pink Cake</h3> : <h3></h3>}
+                    {/* {settings.centerMode === true ? <h3>pink Cake</h3> : <h3></h3>} */}
                 </>
                 <>
                     <img src="https://images.squarespace-cdn.com/content/v1/6130541c25007576b43eb649/b2f1c849-e9a1-4a2b-9dce-23549b7276be/152836767_267793311418796_7541243213307502785_n.jpg?format=750w" alt="pic2" />
-                    {settings.centerMode === true ? <h3>red Cake</h3> : <h3></h3>}
+                    {/* {settings.centerMode === true ? <h3>red Cake</h3> : <h3></h3>} */}
                 </>
                 <>
                     <img src="https://images.squarespace-cdn.com/content/v1/6130541c25007576b43eb649/ecd7370c-4f86-4584-888a-2cfaefc7077f/IMG-6364.jpg?format=750w" alt="pic3" />
